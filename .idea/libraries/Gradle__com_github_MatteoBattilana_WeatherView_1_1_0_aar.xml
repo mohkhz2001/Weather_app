@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MatteoBattilana:WeatherView:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cbef3308f107249a8ab48d998ab8ffb/jetified-WeatherView-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cbef3308f107249a8ab48d998ab8ffb/jetified-WeatherView-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cbef3308f107249a8ab48d998ab8ffb/jetified-WeatherView-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cbef3308f107249a8ab48d998ab8ffb/jetified-WeatherView-1.1.0/jars/libs/LeonidsLib-1.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MatteoBattilana/WeatherView/1.1.0/5b4486fcfe2e2f24d516f2936405f96ebd939aa0/WeatherView-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MatteoBattilana/WeatherView/1.1.0/9648961fc3c217e73618ac9177af08763a95ce6d/WeatherView-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
