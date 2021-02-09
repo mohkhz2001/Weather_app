@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/weather"
+        android:enabled="true"
+        android:icon="@drawable/support"
+        android:title="weather" />
+    <item
+        android:id="@+id/metar"
+        android:enabled="true"
+        android:icon="@drawable/support"
+        android:title="metar" />
+    <item
+        android:id="@+id/support"
+        android:enabled="true"
+        android:icon="@drawable/support"
+        android:title="support" />
+
+</menu>
