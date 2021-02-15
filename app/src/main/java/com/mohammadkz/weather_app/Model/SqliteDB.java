@@ -39,7 +39,9 @@ public class SqliteDB extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         String drop = "DROP table if exists " + Tables.DB_CITY_INFO;
+        String drop2 = "DROP table if exists " + Tables.DB_METAR_INFO;
         db.execSQL(drop);
+        db.execSQL(drop2);
         onCreate(db);
     }
 }

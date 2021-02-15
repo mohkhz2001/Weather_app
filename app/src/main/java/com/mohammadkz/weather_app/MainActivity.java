@@ -1,36 +1,23 @@
 package com.mohammadkz.weather_app;
 
+import android.os.Bundle;
+import android.view.MenuItem;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.os.Bundle;
-import android.util.Log;
-import android.view.MenuItem;
-
-import com.android.volley.Request;
 import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.mohammadkz.weather_app.Fragment.AirportListFragment;
-import com.mohammadkz.weather_app.Fragment.MetarFragment;
 import com.mohammadkz.weather_app.Fragment.SearchWeatherFragment;
 import com.mohammadkz.weather_app.Fragment.SupportFragment;
-import com.mohammadkz.weather_app.Model.Airport;
 import com.mohammadkz.weather_app.Model.City;
 import com.mohammadkz.weather_app.Model.CityDA;
 import com.mohammadkz.weather_app.Model.Metar.Metar;
 import com.mohammadkz.weather_app.Fragment.WeatherFragment;
-
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -77,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViews() {
         navigation = findViewById(R.id.bottom_navigation);
+        navigation.setItemIconTintList(null);
     }
 
     private void controllerViews() {
